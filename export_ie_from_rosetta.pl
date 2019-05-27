@@ -3,11 +3,11 @@
 # sudo apt install libsoap-lite-perl
 
 # sudo apt install libxml2-utils
-# if desired to pretty print output via
+# if desired to pretty print output via piping to
 # xmllint --format -
 
 # Usage: 
-# perl rosetta_soap_test.pl
+# perl export_ie_from_rosetta.pl
 
 # Perl module documentation
 # https://metacpan.org/pod/SOAP::Lite
@@ -15,16 +15,6 @@
 # Ex Libris API documentation
 # https://developers.exlibrisgroup.com/rosetta/apis/
 # https://developers.exlibrisgroup.com/blog/Web-Service-Updates-in-Rosetta-5-1/
-
-# WSDLs:
-# https://rosetta.develop.lza.tib.eu/dpsws/repository/SipWebServices?wsdl
-# https://rosetta.develop.lza.tib.eu/dpsws/repository/DataManagerServicesWS?wsdl
-
-# Example IDs in DEV:
-# SIP IDs in validation TA: 103516, 111776
-# SIP IDs in permanent: 103427, 111698
-# IE PID for SIP 103427: IE1181861
-# IE PID for SIP 111698: IE1214516
 
 use warnings;
 use strict;
