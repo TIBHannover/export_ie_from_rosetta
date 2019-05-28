@@ -9,12 +9,19 @@ via CPAN or `apt install libsoap-lite-perl` on debian based linux distros.
 
 # Usage
 Usage perl script:
-`perl export_ie_from_rosetta.pl --user_name=<user_name> --institution_code=<institution_code> --pass_word=<pass_word> --proxy_url=<proxy_url> --ie_pid=<ie_pid> --path=<path>`
+
+```
+perl export_ie_from_rosetta.pl --user_name=<user_name> --institution_code=<institution_code> --pass_word=<pass_word> --proxy_url=<proxy_url> --ie_pid=<ie_pid> --path=<path>
+```
+
 All arguments are named.
 All arguments are mandatory.
 
 Usage bash script:
-`bash export_ie_from_rosetta.sh <user_name> <institution_code> <pass_word> <proxy_url> <ie_pid> <path>`
+```
+bash export_ie_from_rosetta.sh <user_name> <institution_code> <pass_word> <proxy_url> <ie_pid> <path>
+```
+
 All arguments are positional.
 All arguments are mandatory.
 
