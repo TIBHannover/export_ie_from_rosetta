@@ -6,9 +6,6 @@
 # if desired to pretty print output via piping to
 # xmllint --format -
 
-# Usage: 
-# perl export_ie_from_rosetta.pl
-
 # Perl module documentation
 # https://metacpan.org/pod/SOAP::Lite
 
